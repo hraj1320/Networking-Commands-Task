@@ -1,0 +1,21 @@
+ 
+
+1. Use Root User or Sudo Privileges:
+   Run the command with `root` or `sudo` access to create the file:  
+   ```bash
+   sudo touch /home/demo.txt
+   ```
+
+2. Set File Permissions:
+   Use the `chmod` command with `sudo` to set the required permissions:  
+   ```bash
+   sudo chmod 764 /home/demo.txt
+   ```
+
+3. Verify Permissions: 
+   Check the file permissions using the following command:  
+   ```bash
+   ls -l /home/demo.txt
+   ``` 
+
+ 
